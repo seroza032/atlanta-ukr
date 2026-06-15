@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AtlantSovt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/png" href="assets/avetar_logo_small.png">
+</head>
+<body>
+
+<nav>
+    <a class="nav-logo" href="#home">
+        <img src="assets/avetar_logo.jpg" alt="AtlantSovt" class="nav-logo-img">
+        AtlantSovt
+    </a>
+    <ul class="nav-links">
+        <li><a href="#logistik" data-i18n="nav.logistics">Логістика</a></li>
+        <li><a href="#zoll" data-i18n="nav.customs">Митниця</a></li>
+        <li><a href="#lager" data-i18n="nav.warehouse">Склад</a></li>
+        <li><a href="#kontakt" data-i18n="nav.contact">Контакт</a></li>
+    </ul>
+    <div class="lang-switch" id="langSwitch" role="button" aria-label="Змінити мову">
+        <span class="lang-opt active" data-lang-opt="uk">UK</span>
+        <span class="lang-sep"></span>
+        <span class="lang-opt" data-lang-opt="en">EN</span>
+    </div>
+    <div class="nav-burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+    </div>
+</nav>
+
+<div class="nav-mobile" id="mobileMenu">
+    <a href="#logistik" data-i18n="nav.logistics">Логістика</a>
+    <a href="#zoll" data-i18n="nav.customs">Митниця</a>
+    <a href="#lager" data-i18n="nav.warehouse">Склад</a>
+    <a href="#kontakt" data-i18n="nav.contact">Контакт</a>
+</div>
+
+<section id="home">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-inner">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Ваш міжнародний партнер</p>
+        <h1 class="hero-name">AtlantSovt</h1>
+        <div class="hero-rule"></div>
+        <p class="hero-desc" data-i18n="hero.desc">
+            Ми є вашим надійним партнером у сфері міжнародних логістичних рішень, професійного митного оформлення,
+            сучасних складських послуг та торгівлі якісними продуктами харчування та напоями з Європи та всього світу.
+        </p>
+        <div class="hero-actions">
+            <a href="#logistik" class="btn-gold" data-i18n="hero.btn1">Наші послуги</a>
+            <a href="#kontakt" class="btn-ghost" data-i18n="hero.btn2">Зв'язатись з нами</a>
+        </div>
+    </div>
+</section>
+
+<section class="svc-section bleed" id="logistik" data-screen-label="01 Логістика">
+    <div class="svc-inner">
+        <div class="svc-content">
+            <p class="svc-label" data-i18n="s1.label">ЛОГІСТИКА</p>
+            <div class="svc-icon-wrap">
+                <img src="icons/logistik.svg" alt="" width="24" height="24">
+            </div>
+            <h2 class="svc-title" data-i18n="s1.title">Логістичні послуги</h2>
+            <p class="svc-subtitle" data-i18n="s1.sub">Logistics Services</p>
+            <div class="svc-expand" id="s1Expand">
+                <div>
+                    <p class="svc-text" data-i18n="s1.text">
+                        AtlantSovt GmbH пропонує комплексні логістичні послуги в Європейському Союзі,
+                        Східній Європі, країнах Близького Сходу та Азії:
+                    </p>
+                    <ul class="feat-list">
+                        <li data-i18n="s1.f1">Консультації з питань транспортування та митного оформлення</li>
+                        <li data-i18n="s1.f2">Підбір відповідних транспортних засобів (власні або сторонні транспортні засоби)</li>
+                        <li data-i18n="s1.f3">Перевезення небезпечних вантажів (ADR)</li>
+                        <li data-i18n="s1.f4">Перевезення великовагових та великогабаритних вантажів</li>
+                        <li data-i18n="s1.f5">Консолідація товарів на власних складах</li>
+                        <li data-i18n="s1.f6">Митне оформлення будь-якої складності</li>
+                        <li data-i18n="s1.f7">Складські послуги (власні склади в Лейпцигу, Німеччина)</li>
+                        <li data-i18n="s1.f8">Митний склад (власні митні склади в Лейпцигу)</li>
+                        <li data-i18n="s1.f9">Акцизний склад / Податковий склад (власні податкові склади в Лейпцигу)</li>
+                        <li data-i18n="s1.f10">Нанесення акцизних марок, етикеток та наклейок на продукцію</li>
+                    </ul>
+                    <p class="svc-text" data-i18n="s1.text2">
+                        У Східній Європі ми також пропонуємо наступні послуги:
+                    </p>
+                    <ul class="feat-list">
+                        <li data-i18n="s1.f1">Консультації з питань транспортування та митного оформлення</li>
+                        <li data-i18n="s1.f2">Підбір відповідних транспортних засобів (власні або сторонні транспортні засоби)</li>
+                        <li data-i18n="s1.f3">Перевезення небезпечних вантажів (ADR)</li>
+                        <li data-i18n="s1.f4">Перевезення великовагових та великогабаритних вантажів</li>
+                        <li data-i18n="s1.f11">Консолідація вантажів</li>
+                        <li data-i18n="s1.f12">Митне оформлення</li>
+                    </ul>
+                    <p class="svc-text" data-i18n="s1.text3">
+                        Оскільки всі ці послуги надаються однією компанією в різних країнах, ми можемо запропонувати
+                        вам повний спектр логістичних рішень у Східній та Західній Європі, а також у країнах
+                        Близького Сходу та Азії.</p>
+                </div>
+            </div>
+            <button class="btn-readmore" data-section="s1" data-i18n="s1.readmore">Читати більше</button>
+        </div>
+        <div class="svc-img">
+            <img src="assets/logistik.jpg" alt="Логістика">
+        </div>
+    </div>
+</section>
+
+<section class="svc-section bleed" id="zoll" data-screen-label="02 Митниця">
+    <div class="svc-inner flip">
+        <div class="svc-content">
+            <p class="svc-label" data-i18n="s2.label">МИТНЕ ОФОРМЛЕННЯ</p>
+            <div class="svc-icon-wrap">
+                <img src="icons/zoll.svg" alt="" width="24" height="24">
+            </div>
+            <h2 class="svc-title" data-i18n="s2.title">Митні послуги</h2>
+            <p class="svc-subtitle" data-i18n="s2.sub">Customs Services</p>
+            <div class="svc-expand" id="s2Expand">
+                <div>
+                    <p class="svc-text" data-i18n="s2.text">
+                        Завдяки нашим митним та акцизним ліцензіям AVETAR Logistic GmbH може здійснювати всі митні процедури для ваших товарів:
+                    </p>
+                    <ul class="feat-list">
+                        <li data-i18n="s2.f1">Митна декларація на експорт</li>
+                        <li data-i18n="s2.f2">Митне оформлення імпорту</li>
+                        <li data-i18n="s2.f3">Відкриття та закриття транзитних процедур T1</li>
+                        <li data-i18n="s2.f4">Відкриття та закриття акцизних процедур</li>
+                        <li data-i18n="s2.f5">Видача сертифікатів походження EUR.1 для європейських товарів</li>
+                    </ul>
+                    <p class="svc-text" data-i18n="s2.text2">
+                        Завдяки нашій кваліфікованій та досвідченій команді ми здатні професійно обробити будь-який тип вантажу.
+                    </p>
+                </div>
+            </div>
+            <button class="btn-readmore" data-section="s2" data-i18n="s2.readmore">Читати більше</button>
+        </div>
+        <div class="svc-img">
+            <img src="assets/zoll.jpg" alt="Митне оформлення">
+        </div>
+    </div>
+</section>
+
+<section class="svc-section bleed" id="lager" data-screen-label="03 Склад">
+    <div class="svc-inner">
+        <div class="svc-content">
+            <p class="svc-label" data-i18n="s3.label">СКЛАДСЬКІ ПОСЛУГИ</p>
+            <div class="svc-icon-wrap">
+                <img src="icons/lager.svg" alt="" width="24" height="24">
+            </div>
+            <h2 class="svc-title" data-i18n="s3.title">Складські послуги</h2>
+            <p class="svc-subtitle" data-i18n="s3.sub">Warehouse Services</p>
+            <div class="svc-expand" id="s3Expand">
+                <div>
+                    <p class="svc-text" data-i18n="s3.text">
+                        AVETAR Logistic GmbH може запропонувати вам повний спектр складських послуг за адресою
+                        D-04425 Taucha, Pönitzer Weg 2:
+                    </p>
+                    <ul class="feat-list">
+                        <li data-i18n="s3.f1">Зберігання будь-яких товарів на стандартних складах</li>
+                        <li data-i18n="s3.f2">Зберігання будь-яких товарів на митних складах (ми маємо дозвіл на
+                            експлуатацію митних складів та зберігання товарів під митним контролем)
+                        </li>
+                        <li data-i18n="s3.f3">Зберігання будь-яких товарів на акцизних складах (ми маємо дозвіл на
+                            акцизні склади та зберігання товарів під акцизним наглядом)
+                        </li>
+                    </ul>
+                    <p class="svc-text" data-i18n="s3.text2">
+                        Завдяки нашому комплексному пакету митних та акцизних ліцензій ми можемо зберігати всі товари
+                        під митним та акцизним контролем на наших складах.
+                    </p>
+                </div>
+            </div>
+            <button class="btn-readmore" data-section="s3" data-i18n="s3.readmore">Читати більше</button>
+        </div>
+        <div class="svc-img">
+            <img src="assets/lager.jpg" alt="Складські послуги">
+        </div>
+    </div>
+</section>
+
+<footer id="kontakt">
+    <div class="footer-brand-section">
+        <div class="footer-brand">AtlantSovt</div>
+        <p class="footer-desc" data-i18n="ft.desc">
+            Ваш надійний партнер у сфері логістики, митного оформлення, складських послуг та міжнародної торгівлі
+            з Європи та світу.
+        </p>
+    </div>
+    <div class="footer-contacts">
+        <div class="fc-item">
+            <div class="fc-label" data-i18n="hero.tel">Телефон</div>
+            <div class="fc-value">
+                <a class="link-tel" href="tel:+4934298730012">+49 34298-730012</a>
+                <a class="link-wa"  href="https://wa.me/380676711736">+49 34298-730012</a>
+                <a class="link-tel" href="tel:+4934298730013">+49 34298-730013</a>
+                <a class="link-wa"  href="https://wa.me/380676711736">+49 34298-730013</a>
+                <a class="link-tel" href="tel:+4934298730011">+49 34298-730011</a>
+                <a class="link-wa"  href="https://wa.me/380676711736">+49 34298-730011</a>
+                <a class="link-tel" href="tel:+4934298730010">+49 34298-730010</a>
+                <a class="link-wa"  href="https://wa.me/380676711736">+49 34298-730010</a>
+            </div>
+        </div>
+        <div class="fc-item">
+            <div class="fc-label">Месенджер</div>
+            <div class="fc-value fc-messengers">
+                <a href="https://wa.me/380676711736" class="messenger-link" target="_blank" rel="noopener">
+                    <span class="messenger-icon icon-whatsapp" aria-hidden="true"></span>
+                    WhatsApp
+                </a>
+                <a href="viber://chat?number=%2B380676711736" class="messenger-link" target="_blank" rel="noopener">
+                    <span class="messenger-icon icon-viber" aria-hidden="true"></span>
+                    Viber
+                </a>
+            </div>
+        </div>
+        <div class="fc-item">
+            <div class="fc-label" data-i18n="hero.email">Електронна пошта</div>
+            <div class="fc-value"><a href="mailto:averkovlsh@gmail.com">averkovlsh@gmail.com</a></div>
+        </div>
+        <div class="fc-item">
+            <div class="fc-label" data-i18n="hero.addr">Адреса</div>
+            <div class="fc-value">
+                <a href="https://maps.google.com/?q=Pönitzer+Weg+2,+04425+Taucha,+Deutschland" target="_blank" rel="noopener">
+                    Німеччина, D-04425, Taucha,<br>Pönitzer Weg 2,<br>Офіс 221-222, Склад 4-a
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p data-i18n="ft.rights">© 2025 AtlantSovt. Всі права захищено.</p>
+    </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
