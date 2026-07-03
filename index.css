@@ -257,6 +257,9 @@ nav {
   color: var(--c-dim); line-height: 1.88;
   margin-bottom: 32px;
 }
+.svc-text a { color: var(--c-gold-lt); text-decoration: underline; text-underline-offset: 2px; }
+.svc-text a:visited { color: var(--c-gold-lt); }
+.svc-text a:hover { color: var(--c-gold); }
 
 .feat-list { list-style: none; display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; align-self: stretch; text-align: left; }
 .feat-list + .svc-text { margin-top: 0; }
